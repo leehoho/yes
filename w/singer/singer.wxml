@@ -1,0 +1,10 @@
+<!--singer/singer.wxml-->
+<view class='box'>
+  <view bindtap='singer' wx:for="{{singer}}" wx:key="id" id='{{item.artist}}' class='list' bindtap='song' data-id="{{item.ting_uid}}">
+    <view class='img'>
+      <image src='{{item.avatar_big}}'></image>
+    </view>
+    <text class='zi'>{{item.name}}</text>
+    <text class='area'>{{item.country}}</text>
+  </view>
+</view>

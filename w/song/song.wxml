@@ -1,0 +1,11 @@
+<!--song/song.wxml-->
+<view class='box'>
+ <text class='songlist'>歌曲歌手列表</text>
+ <view bindtap='song' wx:for="{{song}}" wx:key="id" id='{{item.songlist}} ' class='list'>
+   <text class='title'>{{item.title}}</text>
+   <text class='pro'>{{item.album_title}}</text>
+   <text class='company'>{{item.si_proxycompany}}</text>
+   
+ </view>
+</view>
+

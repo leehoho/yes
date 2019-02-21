@@ -1,0 +1,148 @@
+<view class="container">
+  <view class="page-body">
+    <view class="page-section page-section-spacing swiper">
+      <swiper
+        indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" circular="{{circular}}" vertical="{{vertical}}"
+        interval="{{interval}}" duration="{{duration}}" previous-margin="{{previousMargin}}px" next-margin="{{nextMargin}}px">
+        <block wx:for="{{background}}" wx:key="*this">
+          <swiper-item>
+            <view class="swiper-item" src='{{item}}'><image src='./img/banner1.jpg'></image></view>
+          </swiper-item>
+          <swiper-item>
+            <view class="swiper-item"><image src='./img/banner2.jpg'></image></view>
+          </swiper-item>
+           <swiper-item>
+            <view class="swiper-item" src='{{item}}'><image src='./img/banner3.jpg'></image></view>
+          </swiper-item>
+           <swiper-item>
+            <view class="swiper-item" src='{{item}}'><image src='./img/banner4.jpg'></image></view>
+          </swiper-item>
+           <swiper-item>
+            <view class="swiper-item" src='{{item}}'><image src='./img/banner5.jpg'></image></view>
+          </swiper-item>
+           <swiper-item>
+            <view class="swiper-item" src='{{item}}'><image src='./img/banner6.jpg'></image></view>
+          </swiper-item>
+        </block>
+      </swiper>
+    </view>
+    <view class="list">
+      <view class='shape'>
+        <view class='circle'>
+          <image src='./img/yinyue.png'></image>
+          <text>最新歌曲</text>
+        </view>
+      </view>
+      <view class='shape'>
+        <view class='circle'>
+          <image src='./img/gedan.png'></image>
+          <text>歌单</text>
+        </view>
+      </view>
+      <view class='shape' bindtap='radio'>
+        <view class='circle'>
+          <image src='./img/paihangbang.png'></image>
+          <text>电台</text>
+        </view>
+      </view>
+      <view class='shape' bindtap='singer'>
+        <view class='circle'>
+          <image src='./img/huatong.png'></image>
+          <text>歌手</text>
+        </view>
+      </view>
+    </view>
+    <view class='under'>
+      <view class='zhuye'>
+        <view class='png'>
+            <image src='./img/index2.png'></image>
+        </view>
+        <text>首页</text>
+      </view>
+      <view class='zhuye'>
+        <view class='png'>
+            <image src='./img/list2.png'></image>
+        </view>
+        <text>搜索</text>
+      </view>
+    </view>
+    <view class='lis'>
+      <view class='dd'>
+        <text class='gequ'>推荐歌曲</text>
+        <text class='gd'>更多</text>
+      </view>
+      <view class='biaodan'>
+         <view class='bd'>
+           <view class='bd2'>
+            <image src='./img/daoxiang.jpg'></image>
+            <text>新歌榜</text>
+           </view>
+         </view>
+         <view class='bd'>
+          <view class='bd2'>
+            <image src='./img/daoxiang.jpg'></image>
+            <text>热歌榜</text>
+           </view>
+         </view>
+         <view class='bd'>
+          <view class='bd2'>
+            <image src='./img/daoxiang.jpg'></image>
+            <text>billboard</text>
+           </view>
+         </view>
+      </view>
+    </view>
+    <view class='lis'>
+      <view class='dd'>
+        <text class='gequ'>推荐歌曲</text>
+        <text class='gd'>更多</text>
+      </view>
+      <view class='biaodan'>
+         <view class='bd'>
+           <view class='bd2'>
+            <image src='./img/daoxiang.jpg'></image>
+            <text>新歌榜</text>
+           </view>
+         </view>
+         <view class='bd'>
+          <view class='bd2'>
+            <image src='./img/daoxiang.jpg'></image>
+            <text>热歌榜</text>
+           </view>
+         </view>
+         <view class='bd'>
+          <view class='bd2'>
+            <image src='./img/daoxiang.jpg'></image>
+            <text>billboard</text>
+           </view>
+         </view>
+      </view>
+    </view>
+    <view class='lis'>
+      <view class='dd'>
+        <text class='gequ'>推荐歌曲</text>
+        <text class='gd'>更多</text>
+      </view>
+      <view class='biaodan'>
+         <view class='bd'>
+           <view class='bd2'>
+            <image src='./img/daoxiang.jpg'></image>
+            <text>新歌榜</text>
+           </view>
+         </view>
+         <view class='bd'>
+          <view class='bd2'>
+            <image src='./img/daoxiang.jpg'></image>
+            <text>热歌榜</text>
+           </view>
+         </view>
+         <view class='bd'>
+          <view class='bd2'>
+            <image src='./img/daoxiang.jpg'></image>
+            <text>billboard</text>
+           </view>
+         </view>
+      </view>
+    </view>
+  </view>  
+</view> 

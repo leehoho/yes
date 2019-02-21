@@ -1,0 +1,15 @@
+{
+  "pages":[
+    "index/index",
+    "radio/radio",
+    "search/search",
+    "singer/singer",
+    "song/song"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#ff0000",
+    "navigationBarTitleText": "音乐APP",
+    "navigationBarTextStyle":"black"
+  }
+}

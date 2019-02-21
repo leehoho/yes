@@ -1,0 +1,12 @@
+<view class='box'>
+  <view bindtap='search' wx:for="{{search}}" wx:key="id" id='{{item.songid}}' class='list'>
+    <view class='img'>
+     <image src='{{item.thumb}}'></image>
+    </view>
+    <view class='zz'>
+     <text class='artist'>{{item.artist}}</text>
+     <text class='title'>{{item.title}}</text>
+    </view>
+    
+  </view>
+</view>

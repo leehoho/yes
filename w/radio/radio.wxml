@@ -1,0 +1,12 @@
+<!-- radio/radio.wxml -->
+<view>
+  <view>
+    <text class='head_title'>公共频道</text>
+  </view>
+  <view class='box'>
+     <view bindtap='radio' wx:for="{{radio}}" wx:key="id" id='{{item.channelid}}' class='list' bindtap='search'>
+      <image class='img' src='{{item.thumb}}'></image>
+      <text class='txt'>{{item.name}}</text>
+     </view>
+  </view>
+</view>
